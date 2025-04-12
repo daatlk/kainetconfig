@@ -1,9 +1,123 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36" version="26.2.12">
-  <diagram name="Page-1" id="8oN0qPMcyhiYN6_o2w6N">
-    <mxGraphModel>
+  <diagram name="VM Infrastructure" id="8oN0qPMcyhiYN6_o2w6N">
+    <mxGraphModel dx="1027" dy="389" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="b59qAqlhpFBf0_vZaXXu-46" value="Kaizens VM Infrastructure and Services" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="250" y="20" width="600" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="b59qAqlhpFBf0_vZaXXu-47" value="KAIZENS-22-64-DEV-1&#xa;Windows Server 2022 64-bit | IP: 63.250.58.46" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fillColor=#dae8fc;strokeColor=#6c8ebf;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="100" y="80" width="280" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="b59qAqlhpFBf0_vZaXXu-48" value="Database Services" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fillColor=#f8cecc;strokeColor=#b85450;rounded=1;" vertex="1" parent="b59qAqlhpFBf0_vZaXXu-47">
+          <mxGeometry y="40" width="280" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="b59qAqlhpFBf0_vZaXXu-49" value="KAIMIG_DEV&#xa;Oracle 19C | Port: 1521 | SID: KAIMIG_DEV" style="text;strokeColor=#b85450;fillColor=#ffffff;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="b59qAqlhpFBf0_vZaXXu-48">
+          <mxGeometry y="30" width="280" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="b59qAqlhpFBf0_vZaXXu-50" value="KAIMIG_TEST&#xa;Oracle 19C | Port: 1522 | SID: KAIMIG_TEST" style="text;strokeColor=#b85450;fillColor=#ffffff;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="b59qAqlhpFBf0_vZaXXu-48">
+          <mxGeometry y="70" width="280" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="b59qAqlhpFBf0_vZaXXu-51" value="Tools" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fillColor=#fff2cc;strokeColor=#d6b656;rounded=1;" vertex="1" parent="b59qAqlhpFBf0_vZaXXu-47">
+          <mxGeometry y="150" width="280" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="b59qAqlhpFBf0_vZaXXu-52" value="Kaimig&#xa;Version: 2.5 | Web Port: 8081&#xa;Database Connection: KAIMIG_DEV, KAIMIG_TEST" style="text;strokeColor=#d6b656;fillColor=#ffffff;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="b59qAqlhpFBf0_vZaXXu-51">
+          <mxGeometry y="30" width="280" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="b59qAqlhpFBf0_vZaXXu-53" value="KAIZENS-22-64-DEV-5&#xa;Windows Server 2022 64-bit | IP: 103.241.64.56 | Hostname: CWM444.kaizensglobal.com" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fillColor=#dae8fc;strokeColor=#6c8ebf;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="410" y="80" width="300" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="b59qAqlhpFBf0_vZaXXu-54" value="Database Services" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fillColor=#f8cecc;strokeColor=#b85450;rounded=1;" vertex="1" parent="b59qAqlhpFBf0_vZaXXu-53">
+          <mxGeometry y="40" width="300" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="b59qAqlhpFBf0_vZaXXu-55" value="IFS_DEV&#xa;Oracle 19C | Port: 1521 | SID: IFS_DEV&#xa;Purpose: IFS Cloud Database | Windows Management Server" style="text;strokeColor=#b85450;fillColor=#ffffff;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="b59qAqlhpFBf0_vZaXXu-54">
+          <mxGeometry y="30" width="300" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="b59qAqlhpFBf0_vZaXXu-56" value="Tools" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fillColor=#fff2cc;strokeColor=#d6b656;rounded=1;" vertex="1" parent="b59qAqlhpFBf0_vZaXXu-53">
+          <mxGeometry y="120" width="300" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="b59qAqlhpFBf0_vZaXXu-57" value="KaiSec&#xa;Version: 1.3 | Web Port: 8082" style="text;strokeColor=#d6b656;fillColor=#ffffff;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="b59qAqlhpFBf0_vZaXXu-56">
+          <mxGeometry y="30" width="300" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="b59qAqlhpFBf0_vZaXXu-58" value="Windows Management&#xa;Admin Tools | Remote Access: RDP 3389" style="text;strokeColor=#d6b656;fillColor=#ffffff;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="b59qAqlhpFBf0_vZaXXu-56">
+          <mxGeometry y="70" width="300" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="b59qAqlhpFBf0_vZaXXu-59" value="KAIZENS-DEV-MT-1&#xa;Ubuntu Server 20.04 LTS 64-bit | IP: 212.115.108.194 | Hostname: dev-mt-1.kaizensglobal.com" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fillColor=#dae8fc;strokeColor=#6c8ebf;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="740" y="80" width="300" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="b59qAqlhpFBf0_vZaXXu-60" value="Middleware Services" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fillColor=#d5e8d4;strokeColor=#82b366;rounded=1;" vertex="1" parent="b59qAqlhpFBf0_vZaXXu-59">
+          <mxGeometry y="40" width="300" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="b59qAqlhpFBf0_vZaXXu-61" value="Kubernetes Cluster&#xa;Version: 1.22&#xa;Ports: 6443, 10250-10252&#xa;Purpose: Container Orchestration&#xa;Database Connection: IFS_DEV" style="text;strokeColor=#82b366;fillColor=#ffffff;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="b59qAqlhpFBf0_vZaXXu-60">
+          <mxGeometry y="30" width="300" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="b59qAqlhpFBf0_vZaXXu-62" value="IFS Cloud Middleware&#xa;Version: 22.1&#xa;Ports: 8080, 8443&#xa;Web Application: Apache Tomcat 9.0&#xa;Database Connection: IFS_DEV" style="text;strokeColor=#82b366;fillColor=#ffffff;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="b59qAqlhpFBf0_vZaXXu-60">
+          <mxGeometry y="110" width="300" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="b59qAqlhpFBf0_vZaXXu-63" value="" style="endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;edgeStyle=orthogonalEdgeStyle;rounded=1;" edge="1" parent="1" source="b59qAqlhpFBf0_vZaXXu-52" target="b59qAqlhpFBf0_vZaXXu-55">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="500" y="410" as="sourcePoint" />
+            <mxPoint x="550" y="360" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="390" y="240" />
+              <mxPoint x="390" y="175" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="b59qAqlhpFBf0_vZaXXu-64" value="" style="endArrow=classic;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;edgeStyle=orthogonalEdgeStyle;rounded=1;" edge="1" parent="1" source="b59qAqlhpFBf0_vZaXXu-61" target="b59qAqlhpFBf0_vZaXXu-55">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="500" y="410" as="sourcePoint" />
+            <mxPoint x="550" y="360" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="730" y="190" />
+              <mxPoint x="730" y="175" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="b59qAqlhpFBf0_vZaXXu-65" value="" style="endArrow=classic;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;edgeStyle=orthogonalEdgeStyle;rounded=1;" edge="1" parent="1" source="b59qAqlhpFBf0_vZaXXu-62" target="b59qAqlhpFBf0_vZaXXu-55">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="500" y="410" as="sourcePoint" />
+            <mxPoint x="550" y="360" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="730" y="245" />
+              <mxPoint x="730" y="175" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="b59qAqlhpFBf0_vZaXXu-66" value="Legend" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fillColor=#f5f5f5;strokeColor=#666666;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="410" y="350" width="280" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="b59qAqlhpFBf0_vZaXXu-67" value="" style="group" vertex="1" connectable="0" parent="b59qAqlhpFBf0_vZaXXu-66">
+          <mxGeometry y="30" width="280" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="b59qAqlhpFBf0_vZaXXu-68" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="b59qAqlhpFBf0_vZaXXu-67">
+          <mxGeometry x="10" y="10" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="b59qAqlhpFBf0_vZaXXu-69" value="Virtual Machines" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="b59qAqlhpFBf0_vZaXXu-67">
+          <mxGeometry x="40" y="10" width="100" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="b59qAqlhpFBf0_vZaXXu-70" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="b59qAqlhpFBf0_vZaXXu-67">
+          <mxGeometry x="10" y="40" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="b59qAqlhpFBf0_vZaXXu-71" value="Database Services" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="b59qAqlhpFBf0_vZaXXu-67">
+          <mxGeometry x="40" y="40" width="110" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="b59qAqlhpFBf0_vZaXXu-72" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="b59qAqlhpFBf0_vZaXXu-67">
+          <mxGeometry x="150" y="10" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="b59qAqlhpFBf0_vZaXXu-73" value="Middleware Services" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="b59qAqlhpFBf0_vZaXXu-67">
+          <mxGeometry x="180" y="10" width="120" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="b59qAqlhpFBf0_vZaXXu-74" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="b59qAqlhpFBf0_vZaXXu-67">
+          <mxGeometry x="150" y="40" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="b59qAqlhpFBf0_vZaXXu-75" value="Tools" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="b59qAqlhpFBf0_vZaXXu-67">
+          <mxGeometry x="180" y="40" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="b59qAqlhpFBf0_vZaXXu-76" value="Database Connections" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" vertex="1" parent="b59qAqlhpFBf0_vZaXXu-67">
+          <mxGeometry x="70" y="70" width="140" height="20" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
