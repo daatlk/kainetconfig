@@ -7,7 +7,7 @@
         <mxCell id="b59qAqlhpFBf0_vZaXXu-46" value="Kaizens VM Infrastructure and Services" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="250" y="20" width="600" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="b59qAqlhpFBf0_vZaXXu-47" value="KAIZENS-22-64-DEV-1&#xa;Windows Server 2022 64-bit | IP: 63.250.58.46" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fillColor=#dae8fc;strokeColor=#6c8ebf;rounded=1;" vertex="1" parent="1">
+        <mxCell id="b59qAqlhpFBf0_vZaXXu-47" value="KAIZENS-22-64-DEV-1&#xa;Windows Server 2022 64-bit &#xa; IP: 63.250.58.46" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fillColor=#dae8fc;strokeColor=#6c8ebf;rounded=1;" vertex="1" parent="1">
           <mxGeometry x="100" y="80" width="280" height="240" as="geometry" />
         </mxCell>
         <mxCell id="b59qAqlhpFBf0_vZaXXu-48" value="Database Services" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fillColor=#f8cecc;strokeColor=#b85450;rounded=1;" vertex="1" parent="b59qAqlhpFBf0_vZaXXu-47">
@@ -25,7 +25,7 @@
         <mxCell id="b59qAqlhpFBf0_vZaXXu-52" value="Kaimig&#xa;Version: 2.5 | Web Port: 8081&#xa;Database Connection: KAIMIG_DEV, KAIMIG_TEST" style="text;strokeColor=#d6b656;fillColor=#ffffff;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="b59qAqlhpFBf0_vZaXXu-51">
           <mxGeometry y="30" width="280" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="b59qAqlhpFBf0_vZaXXu-53" value="KAIZENS-22-64-DEV-5&#xa;Windows Server 2022 64-bit | IP: 103.241.64.56 | Hostname: CWM444.kaizensglobal.com" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fillColor=#dae8fc;strokeColor=#6c8ebf;rounded=1;" vertex="1" parent="1">
+        <mxCell id="b59qAqlhpFBf0_vZaXXu-53" value="KAIZENS-22-64-DEV-5&#xa;Windows Server 2022 64-bit&#xa;IP: 103.241.64.56&#xa;Hostname: CWM444.kaizensglobal.com" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fillColor=#dae8fc;strokeColor=#6c8ebf;rounded=1;" vertex="1" parent="1">
           <mxGeometry x="410" y="80" width="300" height="240" as="geometry" />
         </mxCell>
         <mxCell id="b59qAqlhpFBf0_vZaXXu-54" value="Database Services" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fillColor=#f8cecc;strokeColor=#b85450;rounded=1;" vertex="1" parent="b59qAqlhpFBf0_vZaXXu-53">
@@ -43,7 +43,7 @@
         <mxCell id="b59qAqlhpFBf0_vZaXXu-58" value="Windows Management&#xa;Admin Tools | Remote Access: RDP 3389" style="text;strokeColor=#d6b656;fillColor=#ffffff;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="b59qAqlhpFBf0_vZaXXu-56">
           <mxGeometry y="70" width="300" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="b59qAqlhpFBf0_vZaXXu-59" value="KAIZENS-DEV-MT-1&#xa;Ubuntu Server 20.04 LTS 64-bit | IP: 212.115.108.194 | Hostname: dev-mt-1.kaizensglobal.com" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fillColor=#dae8fc;strokeColor=#6c8ebf;rounded=1;" vertex="1" parent="1">
+        <mxCell id="b59qAqlhpFBf0_vZaXXu-59" value="KAIZENS-DEV-MT-1&#xa;Ubuntu Server 20.04 LTS 64-bit&#xa;IP: 212.115.108.194&#xa;Hostname: dev-mt-1.kaizensglobal.com" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fillColor=#dae8fc;strokeColor=#6c8ebf;rounded=1;" vertex="1" parent="1">
           <mxGeometry x="740" y="80" width="300" height="240" as="geometry" />
         </mxCell>
         <mxCell id="b59qAqlhpFBf0_vZaXXu-60" value="Middleware Services" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fillColor=#d5e8d4;strokeColor=#82b366;rounded=1;" vertex="1" parent="b59qAqlhpFBf0_vZaXXu-59">
